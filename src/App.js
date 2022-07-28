@@ -1,10 +1,12 @@
 import { SingleDiff, ArrayDiff } from './components/Diff';
+import { WorkLoop } from './components/WorkLoop';
 import './App.css';
 
 function App() {
   return (
-    <ArrayDiff />
     // <SingleDiff />
+    // <ArrayDiff />
+    <WorkLoop />
   )
 }
 
